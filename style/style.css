@@ -29,6 +29,12 @@ body {
     font-family: var(--font-padrão);
 }
 
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 a.externo::after {
     content: '\1F517';
 }
